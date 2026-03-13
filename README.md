@@ -4,7 +4,7 @@ An AI-powered resume analysis chatbot built with LLaMA 3.1 (via Groq),
 Streamlit, and advanced prompt engineering.
 
 ## 🚀 Live Demo
-[Link will go here after deployment]
+[[Link will go here after deployment](https://resume-ai-chatb0t.streamlit.app/)]
 
 ## ✨ Features
 - PDF resume upload with automatic text extraction
@@ -60,3 +60,4 @@ resume-ai-chatbot/
 ├── benchmark.py         # CLI benchmark runner
 └── requirements.txt
 ```
+

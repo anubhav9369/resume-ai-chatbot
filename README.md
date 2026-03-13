@@ -5,6 +5,14 @@ Streamlit, and advanced prompt engineering.
 
 ## 🚀 Live Demo
 [[Visit Website !](https://resume-ai-chatb0t.streamlit.app/)]
+<img width="1628" height="922" alt="image" src="https://github.com/user-attachments/assets/594e7841-3ba9-4939-99e7-a4de8f88bca2" />
+<img width="1603" height="916" alt="image" src="https://github.com/user-attachments/assets/7f46de15-7a0f-45b5-8763-4cd6e4c1c3e7" />
+<img width="1571" height="777" alt="image" src="https://github.com/user-attachments/assets/af155b0a-4769-4aa3-9872-8e3dea187193" />
+<img width="1578" height="864" alt="image" src="https://github.com/user-attachments/assets/bb518070-c9b1-4aa5-a8ee-ee8cb6f8b7da" />
+
+
+
+
 
 ## ✨ Features
 - PDF resume upload with automatic text extraction
@@ -60,5 +68,6 @@ resume-ai-chatbot/
 ├── benchmark.py         # CLI benchmark runner
 └── requirements.txt
 ```
+
 
 

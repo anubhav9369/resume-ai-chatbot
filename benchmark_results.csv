@@ -1,0 +1,53 @@
+strategy,question,answer,keyword_score,tokens_in,tokens_out,latency_ms,cost_usd
+zero_shot,What programming languages does the candidate know?,"The candidate knows Python, SQL, and Git.",0.5,175,11,776.9,3.3e-05
+zero_shot,What is the candidate's highest level of education?,This information is not mentioned in the resume.,0.0,176,10,169.5,3.2e-05
+zero_shot,Has the candidate worked on NLP projects?,"Yes, the candidate has worked on NLP projects, specifically developing an emotion detection system for customer feedback.",0.5,229,22,188.6,4.8e-05
+zero_shot,Would this candidate be suitable for a GenAI engineering role?,"Based on the resume, the candidate has experience in NLP, specifically developing an emotion detection system. However, there is no mention of experience with GenAI, which typically involves more advanced AI models and techniques.",0.25,262,43,243.8,6.5e-05
+zero_shot,What is the candidate's experience with cloud platforms?,This information is not mentioned in the resume.,1.0,279,10,148.1,4.8e-05
+few_shot,What programming languages does the candidate know?,"Based on the resume, the candidate knows Python, and they also mention proficiency in the following Python libraries and frameworks: PyTorch, Scikit-learn, and HuggingFace. Additionally, they have experience with SQL and Git.",0.5,308,48,286.5,7.5e-05
+few_shot,What is the candidate's highest level of education?,This information is not mentioned in the resume.,0.0,346,10,268.3,5.8e-05
+few_shot,Has the candidate worked on NLP projects?,"Yes, the candidate has worked on NLP projects, specifically developing an emotion detection system for customer feedback at TechCorp.",0.5,399,25,343.6,7.5e-05
+few_shot,Would this candidate be suitable for a GenAI engineering role?,"Based on the resume, the candidate has experience with NLP, specifically developing an emotion detection system and a fake news detection model using RoBERTa. However, there is no mention of experience with GenAI, which suggests that this information is not mentioned in the resume.",0.25,435,55,296.9,9.8e-05
+few_shot,What is the candidate's experience with cloud platforms?,This information is not mentioned in the resume.,1.0,464,10,493.2,7.6e-05
+chain_of_thought,What programming languages does the candidate know?,"REASONING:
+STEP 1 - Locate: The relevant part of the resume is the list of programming languages and tools.
+STEP 2 - Extract: The exact relevant facts are:
+    - Python
+    - PyTorch
+    - Scikit-learn
+    - HuggingFace
+    - SQL
+    - Git
+STEP 3 - Reason: The question asks for programming languages, which are Python, PyTorch, Scikit-learn, and HuggingFace, and SQL.
+STEP 4 - Verify: The answer only uses resume content.
+STEP 5 - Answer: The candidate knows Python, PyTorch, Scikit-learn, HuggingFace, and SQL as programming languages.",1.0,280,146,1378.1,0.00013
+chain_of_thought,What is the candidate's highest level of education?,"REASONING:
+STEP 1 - Locate: The relevant part of the resume is the candidate's bio or summary.
+STEP 2 - Extract: The exact relevant fact is:
+    - None mentioned
+STEP 3 - Reason: The candidate's bio does not mention their highest level of education.
+STEP 4 - Verify: The answer only uses resume content.
+STEP 5 - Answer: This information is not mentioned in the resume.",0.0,416,89,232.1,0.000116
+chain_of_thought,Has the candidate worked on NLP projects?,"REASONING:
+STEP 1 - Locate: The relevant part of the resume is the job description at TechCorp.
+STEP 2 - Extract: The exact relevant fact is:
+    - Developed emotion detection system for customer feedback
+STEP 3 - Reason: The candidate developed an emotion detection system, which is an NLP project.
+STEP 4 - Verify: The answer only uses resume content.
+STEP 5 - Answer: Yes, the candidate has worked on NLP projects.",0.5,548,98,259.3,0.000141
+chain_of_thought,Would this candidate be suitable for a GenAI engineering role?,"REASONING:
+STEP 1 - Locate: The relevant parts of the resume are the candidate's job description at TechCorp and their overall experience.
+STEP 2 - Extract: The exact relevant facts are:
+    - 3 years of experience in ML and NLP
+    - Built fake news detection model using RoBERTa
+    - Developed emotion detection system for customer feedback
+STEP 3 - Reason: The candidate has experience in ML and NLP, but there is no mention of GenAI engineering experience or skills.
+STEP 4 - Verify: The answer only uses resume content.
+STEP 5 - Answer: This information is not mentioned in the resume.",0.5,657,135,307.9,0.00018
+chain_of_thought,What is the candidate's experience with cloud platforms?,"REASONING:
+STEP 1 - Locate: The relevant part of the resume is the candidate's bio or summary.
+STEP 2 - Extract: The exact relevant fact is:
+    - None mentioned
+STEP 3 - Reason: The candidate's bio does not mention their experience with cloud platforms.
+STEP 4 - Verify: The answer only uses resume content.
+STEP 5 - Answer: This information is not mentioned in the resume.",1.0,766,89,8523.6,0.000168

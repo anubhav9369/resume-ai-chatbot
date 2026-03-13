@@ -1,0 +1,27 @@
+[
+    {
+      "question": "What programming languages does the candidate know?",
+      "expected_keywords": ["Python", "language"],
+      "category": "factual"
+    },
+    {
+        "question": "What is the candidate's highest level of education?",
+    "expected_keywords": ["MSc", "Master", "Data Science"],
+    "category": "factual"
+  },
+  {
+    "question": "Has the candidate worked on NLP projects?",
+    "expected_keywords": ["NLP", "RoBERTa", "fake news", "emotion"],
+    "category": "factual"
+  },
+  {
+    "question": "Would this candidate be suitable for a GenAI engineering role?",
+    "expected_keywords": ["Python", "ML", "NLP", "suitable"],
+    "category": "inference"
+  },
+  {
+    "question": "What is the candidate's experience with cloud platforms?",
+    "expected_keywords": ["not mentioned", "resume"],
+    "category": "negative — tests hallucination resistance"
+  }
+]

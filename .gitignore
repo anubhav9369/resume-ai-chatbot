@@ -1,0 +1,8 @@
+# .gitignore — add these lines
+.env
+__pycache__/
+*.pyc
+.DS_Store
+data/my_real_resume.txt
+venv/
+venv/

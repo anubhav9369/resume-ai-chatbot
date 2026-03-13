@@ -1,0 +1,17 @@
+John Doe
+john.doe@email.com | +1-555-0123
+
+SUMMARY
+Data Scientist with 3 years of experience in ML and NLP.
+
+EXPERIENCE
+Data Scientist — TechCorp (2022–Present)
+- Built fake news detection model using RoBERTa (94% accuracy)
+- Developed emotion detection system for customer feedback
+
+EDUCATION
+MSc Data Science — XYZ University (2024–Present)
+BSc Mathematics and Physics — ABC University (2021)
+
+SKILLS
+Python, PyTorch, Scikit-learn, HuggingFace, SQL, Git

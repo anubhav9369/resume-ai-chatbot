@@ -1,0 +1,11 @@
+# requirements.txt
+openai>=1.30.0
+tiktoken>=0.7.0
+streamlit>=1.35.0
+python-dotenv>=1.0.0
+pandas>=2.0.0
+rich>=13.0.0          # Beautiful CLI output for benchmark reports
+pytest>=8.0.0         # Tests
+pymupdf>=1.26.5
+# Install all at once:
+# pip install -r requirements.txt

@@ -36,6 +36,11 @@ User → PDF Upload → PyMuPDF extraction → ResumeLoader (section parser)
 
 ## 🛠 Tech Stack
 
+- **LLM**: LLaMA 3.1 8B via Groq API
+- **Framework**: Streamlit
+- **PDF Parsing**: PyMuPDF (fitz)
+- **Prompt Engineering**: Zero-shot, Few-shot, Chain-of-Thought
+- **Token Counting**: tiktoken
 
 ## ⚡ Run Locally
 ```bash

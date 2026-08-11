@@ -1,3 +1,17 @@
+---
+title: ResumeAI - Intelligent Resume Analyzer
+emoji: 🧠
+colorFrom: blue
+colorTo: purple
+sdk: streamlit
+sdk_version: 1.35.0
+app_file: app.py
+pinned: false
+---
+
+
+
+
 # 🧠 ResumeAI — Intelligent Resume Analyzer
 
 An AI-powered resume analysis chatbot built with LLaMA 3.1 (via Groq), 

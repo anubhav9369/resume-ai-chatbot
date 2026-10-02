@@ -44,7 +44,7 @@ User → PDF Upload → PyMuPDF extraction → ResumeLoader (section parser)
 
 ## ⚡ Run Locally
 ```bash
-git clone https://github.com/YOUR_USERNAME/resume-ai-chatbot
+git clone https://github.com/anubhav9369/resume-ai-chatbot
 cd resume-ai-chatbot
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
